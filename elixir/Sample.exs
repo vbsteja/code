@@ -203,4 +203,97 @@ prob_1=fn
 take_fir=fn fir ->(fn sec -> ~s"#{fir} #{sec}" end)  end
 take_sec=take_fir.("surya")
 take_fir_sec=take_sec.("Teja")
-IO.puts take_fir_sec
+#IO.puts take_fir_sec
+
+#lenovo store
+180030005366
+
+#Ananymos function with &
+
+times=&(&1 * &2)
+#IO.puts times.(4,5)
+
+#Exercise Function 5:
+#rewrite the following
+# Enum.map [1,2,3,4], fn x -> x + 2 end
+#Enum.each [1,2,3,4], fn x -> IO.inspect x end
+
+#IO.puts Enum.map([1,2,3,4],&(&1+2))
+#IO.puts Enum.each([1,2,3,4],&(IO.inspect &1))
+
+#Modules syntactic sugar
+defmodule Hello,do: (def foo(n),do: ~s"hello #{n}")
+#IO.puts Hello.foo("surya")
+
+#Extend the Times module with a triple function that multiplies its parameter by three.
+
+triple=&(&1*3)
+
+#Run the result in iex. Use both techniques to compile the file.
+quadraple=&(&1*4)
+
+#IO.puts triple.(3)
+#IO.puts quadraple.(4)
+
+#gcd of x,y
+defmodule GCD do
+    def of(x,y) when y==0  do
+        x
+    end
+    def of(x,y) do
+        of(y,rem(x,y))
+    end
+end
+
+IO.puts GCD.of(2,13)
+
+#Binary Search
+
+defmodule Bin_Search do
+    def search(n,mid,low,high) when n==mid  do
+         mid
+    end
+    def search(n,mid,low,high) when n<mid do
+        search(n,(low+mid)/2,low,mid)
+    end
+    def search(n,mid,low,high) when n>mid do
+        search(n,(mid+high)/2,mid,high)
+    end
+end
+
+# From Chris McCord's “Metaprogramming Elixir” chapter 2
+defmacro while(expression, do: block) do
+  quote do
+    for _ <- Stream.cycle([:ok]) do
+      if unquote(expression) do
+        unquote(block)
+      else
+        # break out of loop
+      end
+    end
+  end
+end
+
+~s"Hello there, you wanna play the guessing game?"
+i=&(IO.gets &1)
+
+while(i.("yes or no?")=="yes") do
+
+
+end
+
+IO.puts Bin_Search.search(237,500,1,1000)
+
+defmodule Author do
+    @author "Surya Teja"
+    def get_author do
+        @author
+    end
+end
+IO.puts "the programs were written by #{Author.get_author}"
+
+#calling the erlang functions
+#precede the colon (:) to the module in erlang
+#so you can call the other functions of erlang same as in elixir
+
+:io.format("Hello there i am inside elixir, but using erlang format function")
