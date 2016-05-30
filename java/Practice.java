@@ -1,17 +1,12 @@
-public class HelloWorld{
+package test;
+public class Practice{
 
      public static void main(String []args){
         //System.out.println("Hello World");
-        new HelloWorld().go();
+        System.out.println(hello);
      }
-     public void go(){
-         Runnable r=new Runnable(){
-             public void run(){
-                 Systsem.out.println("Foo");
-             }
-         };
-         Thread t=new Thread(r);
-         t.start();
-         t.start();
-     }
+}
+
+class test{
+    public String hello="surya";
 }
