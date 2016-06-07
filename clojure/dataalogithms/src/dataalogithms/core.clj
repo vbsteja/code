@@ -1,5 +1,6 @@
 (ns dataalogithms.core)
 (require '[clojure.string :as str])
+(:use [speech-synthesis.say :as say])
 (defn foo
   "I don't do a whole lot."
   [x]

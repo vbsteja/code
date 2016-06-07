@@ -7,3 +7,4 @@ defmodule Myapp do
     end
 end
 IO.puts Myapp.f(5)
+IO.puts("hello mix")

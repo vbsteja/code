@@ -25,7 +25,11 @@
       <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.clj">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="136">
+=======
+            <state relative-caret-position="120">
+>>>>>>> dd1c889bf3bc674241b25b9d20ebe6856270b8ca
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
@@ -35,18 +39,31 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dataalogithms/core.clj">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="267">
               <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+=======
+            <state relative-caret-position="30">
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+>>>>>>> dd1c889bf3bc674241b25b9d20ebe6856270b8ca
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PyPack/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+=======
+      <file leaf-file-name="Hello.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/Hello.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+>>>>>>> dd1c889bf3bc674241b25b9d20ebe6856270b8ca
               <folding />
             </state>
           </provider>
@@ -72,17 +89,23 @@
       <list>
         <option value="C:/Program Files (x86)/Java/jdk1.7.0_71/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class" />
         <option value="$PROJECT_DIR$/src/dataalogithms/Practice.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/PyPack/__init__.py" />
         <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/src/dataalogithms/core.clj" />
+=======
+        <option value="$PROJECT_DIR$/src/dataalogithms/core.clj" />
+        <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/src/java/Hello.java" />
+>>>>>>> dd1c889bf3bc674241b25b9d20ebe6856270b8ca
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-1" />
+    <option name="y" value="26" />
+    <option name="width" value="1368" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -109,6 +132,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+>>>>>>> dd1c889bf3bc674241b25b9d20ebe6856270b8ca
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -145,7 +173,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="PyPack" />
+=======
+              <option name="myItemId" value="java" />
+>>>>>>> dd1c889bf3bc674241b25b9d20ebe6856270b8ca
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -170,19 +202,30 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
+=======
+>>>>>>> dd1c889bf3bc674241b25b9d20ebe6856270b8ca
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+<<<<<<< HEAD
     <property name="project.structure.last.edited" value="Facets" />
+=======
+    <property name="project.structure.last.edited" value="Global Libraries" />
+>>>>>>> dd1c889bf3bc674241b25b9d20ebe6856270b8ca
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../python3.5/python.exe" />
   </component>
+<<<<<<< HEAD
   <component name="ReplState" timestamp="1464883833544">{:repl-history {:ide [], :local [&quot;(main)&quot; &quot;(foo)&quot; &quot;(foo \&quot;Surya\&quot;)&quot; &quot;(str/replace \&quot;hello\\t\\n world\&quot; \&quot;\\t\\n\&quot; \&quot;\\n\&quot;)&quot; &quot;(sort\n  )&quot; &quot;(apply str \&quot;12\&quot; [1,2,3])&quot; &quot;(make-csv [\&quot;name\&quot; \&quot;age\&quot; \&quot;sex\&quot;] [\&quot;surya 24 M\&quot;,\&quot;teja 25 F\&quot;])&quot; &quot;(make-csv [\&quot;name, age, sex\&quot;] [\&quot;surya 24 M\&quot;,\&quot;teja 25 F\&quot;])&quot; &quot;(make-csv \&quot;name, age, sex\&quot; [\&quot;surya 24 M\&quot;,\&quot;teja 25 F\&quot;])&quot; &quot;(make-csv \&quot;name, age, sex\\n\&quot; [\&quot;surya 24 M\&quot;,\&quot;teja 25 F\&quot;])&quot; &quot;(seq \&quot;Hello world\&quot;)&quot; &quot;(frequencies (str/lower-case \&quot;An Adult all about A's \&quot;))&quot; &quot;(type(frequencies (str/lower-case \&quot;An Adult all about A's \&quot;))) &quot; &quot;(yelling? \&quot;HECK YAA...\&quot;)&quot; &quot;(yelling? \&quot;HECK YAfsdf...\&quot;)&quot; &quot;(int \\1)&quot; &quot;(int \\49)&quot; &quot;(int \\4)&quot; &quot;(int \\4\\9)&quot; &quot;(int \\9)&quot; &quot;(int \\a)&quot; &quot;(int \\u03B1)&quot; &quot;(map int \&quot;Hello world\&quot;)&quot; &quot;(int )&quot; &quot;(int \\)&quot; &quot;(int \\\&quot; \&quot;\&quot;)&quot; &quot;(int \\\&quot; \&quot;)&quot; &quot;(int \\\&quot; \&quot; \&quot;)&quot; &quot;(char 945)&quot; &quot;(char 32)&quot; &quot;(char 47)&quot; &quot;(char 52)&quot; &quot;(char 48)&quot; &quot;(char 49)&quot; &quot;(def me {:first-name \&quot;surya\&quot;, :fav_lang \&quot;Clojure\&quot;})&quot; &quot;(str \&quot;Hi, My name is \&quot; (me :first-name) \&quot;, i am the fastest programmer in \&quot; \n     (me :fav_lang))&quot; &quot;(list? (list 1 2 3 4))&quot; &quot;(cons [1 2 3] 4 5)&quot; &quot;(assoc [:a a :b 2\n        ])&quot; &quot;(assoc [:a a :b 2\n        ] :c 4\n          )&quot; &quot;(assoc [1 2 3] 2 5)&quot; &quot;(pop [1 2 3 ])&quot; &quot;(subvec [1 2  3 4] 2)&quot; &quot;(subvec [1 2  3 4] 2 4)&quot; &quot;(subvec [1 2  3 4] 1 3)&quot; &quot;(subvec [:a :b :c :d :e] 1 3)&quot; &quot;(subvec [:a :b :c :d :e] 2 3)&quot; &quot;(subvec [:a :b :c :d :e] 2 4)&quot; &quot;(subvec [:a :b :c :d :e] 2 4 1)&quot; &quot;(subvec [:a :b :c :d :e] 1 2 3)&quot; &quot;(subvec [:a :b :c :d :e :f :g :h] 3 6  )&quot; &quot;(def a [1 2 3 4 5])&quot; &quot;(nth a 3)&quot; &quot;(a 3)&quot; &quot;(get a 2\n     )&quot; &quot;(get a 3)&quot; &quot;(get a 10 :not-found)&quot; &quot;(get a 1 :not-found)&quot; &quot;(assoc a 1 :x)&quot; &quot;a&quot; &quot;((def v  assoc a 1 :x))&quot; &quot;((def v  (assoc a 1 :x) ))&quot; &quot;(def v  (assoc a 1 :x) )&quot; &quot;v&quot; &quot;#{:a :b :c}&quot; &quot;(def largseq (doall (range 1e5)))&quot; &quot;(time (dotimes [_ 100] (set largseq)))&quot; &quot;(time ( dotimes [_ 100] (into #{} largseq)))&quot; &quot;(sorted-set  99 n45 66 12 30)&quot; &quot;(sorted-set  99 45 66 12 30)&quot; &quot;(def alphabet (into (sorted-set) \&quot;qwertyuiopasdfghjklzxcvbnm\&quot;))&quot; &quot;(last alphabet)&quot; &quot;alphabet&quot; &quot;(second (disj alphabet '\\b'))&quot; &quot;(second (disj alphabet \\b))&quot; &quot;(conj [12 3 4] 4 5)&quot; &quot;(cons (1 2 ) 4 5)&quot; &quot;(cons [1 2 ] 4 5)&quot; &quot;(contains? #{:green :blue :yellow :white} :blue)&quot; &quot;(contains? #{:green :blue :yellow :white} :blur)&quot; &quot;(def s #{:a :b c})&quot; &quot;(def s #{:a :b :c})&quot; &quot;(s :g)&quot; &quot;(s :a)&quot; &quot;(.isReachable (java.net.InetAddress/getByName \&quot;oreilly.com\&quot;) 100)&quot; &quot;(.isReachable (java.net.InetAddress/getByName \&quot;oreilly.com\&quot;) 1000)&quot; &quot;(.isReachable (java.net.InetAddress/getByName \&quot;oreilly.com\&quot;) 5000)&quot; &quot;(.isReachable (java.net.InetAddress/getByName \&quot;google.com\&quot;) 5000)&quot; &quot;(.isReachable (java.net.InetAddress/getByName \&quot;http://www.google.com\&quot;) 5000)&quot; &quot;(.isReachable (java.net.InetAddress/getByName \&quot;www.google.com\&quot;) 5000)&quot; &quot;(require '[clj-commons-exec :as exec])&quot; &quot;(def p (exec/sh [\&quot;date\&quot;]))&quot; &quot;(def p (exec/sh [\&quot;ping google.com\&quot;]))&quot; &quot;(deref p)&quot;], :remote []}}</component>
+=======
+  <component name="ReplState" timestamp="1464755302675">{:repl-history {:ide [], :local [&quot;(main)&quot; &quot;(foo)&quot; &quot;(foo \&quot;Surya\&quot;)&quot; &quot;(str/replace \&quot;hello\\t\\n world\&quot; \&quot;\\t\\n\&quot; \&quot;\\n\&quot;)&quot; &quot;(sort\n  )&quot; &quot;(apply str \&quot;12\&quot; [1,2,3])&quot; &quot;(make-csv [\&quot;name\&quot; \&quot;age\&quot; \&quot;sex\&quot;] [\&quot;surya 24 M\&quot;,\&quot;teja 25 F\&quot;])&quot; &quot;(make-csv [\&quot;name, age, sex\&quot;] [\&quot;surya 24 M\&quot;,\&quot;teja 25 F\&quot;])&quot; &quot;(make-csv \&quot;name, age, sex\&quot; [\&quot;surya 24 M\&quot;,\&quot;teja 25 F\&quot;])&quot; &quot;(make-csv \&quot;name, age, sex\\n\&quot; [\&quot;surya 24 M\&quot;,\&quot;teja 25 F\&quot;])&quot; &quot;(seq \&quot;Hello world\&quot;)&quot; &quot;(frequencies (str/lower-case \&quot;An Adult all about A's \&quot;))&quot; &quot;(type(frequencies (str/lower-case \&quot;An Adult all about A's \&quot;))) &quot; &quot;(yelling? \&quot;HECK YAA...\&quot;)&quot; &quot;(yelling? \&quot;HECK YAfsdf...\&quot;)&quot; &quot;(int \\1)&quot; &quot;(int \\49)&quot; &quot;(int \\4)&quot; &quot;(int \\4\\9)&quot; &quot;(int \\9)&quot; &quot;(int \\a)&quot; &quot;(int \\u03B1)&quot; &quot;(map int \&quot;Hello world\&quot;)&quot; &quot;(int )&quot; &quot;(int \\)&quot; &quot;(int \\\&quot; \&quot;\&quot;)&quot; &quot;(int \\\&quot; \&quot;)&quot; &quot;(int \\\&quot; \&quot; \&quot;)&quot; &quot;(char 945)&quot; &quot;(char 32)&quot; &quot;(char 47)&quot; &quot;(char 52)&quot; &quot;(char 48)&quot; &quot;(char 49)&quot; &quot;(def me {:first-name \&quot;surya\&quot;, :fav_lang \&quot;Clojure\&quot;})&quot; &quot;(str \&quot;Hi, My name is \&quot; (me :first-name) \&quot;, i am the fastest programmer in \&quot; \n     (me :fav_lang))&quot;], :remote []}}</component>
+>>>>>>> dd1c889bf3bc674241b25b9d20ebe6856270b8ca
   <component name="RunManager" selected="Clojure REPL.REPL">
     <configuration default="false" name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,43 +248,6 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -291,6 +297,63 @@
       <setting name="params" value="" />
       <setting name="workDir" value="" />
       <setting name="repl" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ErlangApplicationRunConfiguration" factoryName="Erlang Application" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="erlFlags" value="" />
+      <option name="moduleAndFunction" value="" />
+      <option name="params" value="" />
+      <option name="useTestCodePath" value="false" />
+      <option name="workDirectory" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="ErlangUnitRunConfigurationType" factoryName="Erlang Eunit" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="workDirectory" />
+      <module />
+      <option name="functionNames">
+        <set />
+      </option>
+      <option name="kind" value="MODULE" />
+      <option name="moduleNames">
+        <set />
+      </option>
+      <method />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
       <method />
     </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
@@ -423,6 +486,12 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RebarEunitRunConfigurationType" factoryName="Erlang Rebar Eunit" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="command" value="eunit" />
+      <option name="skipDependencies" value="true" />
+      <module />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -726,35 +795,53 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
+=======
+    <frame x="-1" y="26" width="1368" height="743" extended-state="7" />
+    <editor active="false" />
+>>>>>>> dd1c889bf3bc674241b25b9d20ebe6856270b8ca
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> dd1c889bf3bc674241b25b9d20ebe6856270b8ca
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2877013" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> dd1c889bf3bc674241b25b9d20ebe6856270b8ca
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21522693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+>>>>>>> dd1c889bf3bc674241b25b9d20ebe6856270b8ca
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -786,21 +873,30 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dataalogithms/core.clj">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="493">
           <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+=======
+        <state relative-caret-position="30">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+>>>>>>> dd1c889bf3bc674241b25b9d20ebe6856270b8ca
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/PyPack/__init__.py">
+=======
+    <entry file="file://$PROJECT_DIR$/src/java/Hello.java">
+>>>>>>> dd1c889bf3bc674241b25b9d20ebe6856270b8ca
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -810,7 +906,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="105">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
@@ -841,15 +937,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_71/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+    <entry file="file://$PROJECT_DIR$/src/dataalogithms/Practice.java" />
+    <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataalogithms/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dataalogithms/Practice.java" />
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataalogithms/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataalogithms/Practice.java" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/PyPack/__init__.py">
+=======
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataalogithms/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataalogithms/Practice.java" />
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataalogithms/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataalogithms/Practice.java" />
+    <entry file="file://$PROJECT_DIR$/project.clj">
+>>>>>>> dd1c889bf3bc674241b25b9d20ebe6856270b8ca
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -865,10 +1034,53 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/dataalogithms/core.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/dataalogithms/Practice.java" />
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataalogithms/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_71/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class" />
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataalogithms/Practice.java" />
+    <entry file="file://$PROJECT_DIR$/src/dataalogithms/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/hello.java" />
+    <entry file="file://$PROJECT_DIR$/src/java/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+>>>>>>> dd1c889bf3bc674241b25b9d20ebe6856270b8ca
           <folding />
         </state>
       </provider>
@@ -902,7 +1114,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+<<<<<<< HEAD
           <last-edited>Python 3.5.0 (D:\surya\example\python3.5\python.exe) interpreter library</last-edited>
+=======
+          <last-edited>Python 3.5.1 (/usr/bin/python3.5) interpreter library</last-edited>
+>>>>>>> dd1c889bf3bc674241b25b9d20ebe6856270b8ca
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -914,7 +1130,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+<<<<<<< HEAD
           <last-edited>Python 3.5.0 (D:\surya\example\python3.5\python.exe)</last-edited>
+=======
+          <last-edited>GHC 7.10.3</last-edited>
+>>>>>>> dd1c889bf3bc674241b25b9d20ebe6856270b8ca
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -931,6 +1151,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -938,7 +1159,11 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
+<<<<<<< HEAD
           <last-edited>IDE SDK</last-edited>
+=======
+          <last-edited>1.8</last-edited>
+>>>>>>> dd1c889bf3bc674241b25b9d20ebe6856270b8ca
           <splitter-proportions>
             <option name="proportions">
               <list>

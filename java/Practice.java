@@ -1,17 +1,16 @@
-public class HelloWorld{
+
+//import java.io.Exception;
+public class Practice{
 
      public static void main(String []args){
         //System.out.println("Hello World");
-        new HelloWorld().go();
+        try{
+        args=null;
+        args[0]="1";
+        System.out.println(args[0]);
+    }
+    catch(Exception e){System.out.println("Exception");}
+    //catch(NullPointerExcepton np){System.out.println("NPE");}
      }
-     public void go(){
-         Runnable r=new Runnable(){
-             public void run(){
-                 Systsem.out.println("Foo");
-             }
-         };
-         Thread t=new Thread(r);
-         t.start();
-         t.start();
-     }
+
 }
