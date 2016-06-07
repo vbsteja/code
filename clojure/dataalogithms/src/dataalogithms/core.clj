@@ -30,5 +30,22 @@
 ;;formating strings
 
 (def me {:first-name "surya", :fav_lang "Clojure"})
+(do
+  (print "Hi My name is " (me :first-name) ", my favorite language is " (me :fav_lang)))
+
+;;Formating in tabular format
+(def employe [["surya" "teja" "10123024"] ["teja" "surya" "34234134"]])
+(def header ["First Name" "Last Name" "EmployeeID"])
+
+(defn tablify [row]
+  (apply format "%-20s | %-20s | %-20s" row))
+
+(->> (concat [header] employe)
+     (map tablify)
+     (mapv println))
+(use '[clojure.java.shell :only [sh]])
+(sh "ping" "google.com")
+
+(.isReachable (java.net.InetAddress/getByName "oreilly.com") 10)
 
 
