@@ -33,3 +33,45 @@ receive do
     {:ok,message} ->   IO.puts message
 after 500 -> IO.puts "the greeter has gone away..."
 end
+
+defmodule MultiProcess do
+    import :timer,only: [sleep: 1]
+    def child do
+        sleep 500
+        receive do
+            {sender,msg} -> send sender,{:ok,"Hey Parent #{msg}"}
+        end
+        raise "I am raising exception"
+        #exit(:boom
+    end
+    def run do
+        parent=spawn_link(MultiProcess,:child,[])
+        send parent, {self,"surya"}
+        exit(:boom)
+        receive do
+            {:ok,message} -> IO.puts message
+        end
+
+    end
+end
+
+defmodule MultiProcessMonitor do
+    import :timer,only: [sleep: 1]
+    def child do
+        sleep 500
+        receive do
+            {sender,msg} -> send sender,{:ok,"Hey Parent #{msg}"}
+        end
+        raise "I am raising exception"
+        #exit(:boom
+    end
+    def run do
+        parent=spawn_monitor(MultiProcessMonitor,:child,[])
+        send parent, {self,"surya"}
+        exit(:boom)
+        receive do
+            {:ok,message} -> IO.puts message
+        end
+
+    end
+end
