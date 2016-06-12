@@ -44,9 +44,12 @@
 (->> (concat [header] employe)
      (map tablify)
      (mapv println))
-(use '[clojure.java.shell :only [sh]])
-(sh "ping" "google.com")
+;(use '[clojure.java.shell :only [sh]])
+;(sh "ping" "google.com")
 
-(.isReachable (java.net.InetAddress/getByName "oreilly.com") 10)
+;(.isReachable (java.net.InetAddress/getByName "oreilly.com") 10)
 
-
+(defn h
+  "hell"
+  []
+  (println "Hello"))
