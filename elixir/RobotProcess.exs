@@ -34,7 +34,6 @@ receive do
 after 500 -> IO.puts "the greeter has gone away..."
 end
 
-<<<<<<< HEAD
 defmodule MultiProcess do
     import :timer,only: [sleep: 1]
     def child do
@@ -75,7 +74,7 @@ defmodule MultiProcessMonitor do
         end
 
     end
-=======
+end
 defmodule Link do
 
   import :timer,only: [sleep: 1]
@@ -115,5 +114,4 @@ defmodule Monitor do
     end
 
   end
->>>>>>> 59d27a17b17783f5b0d31cbe8074cf02ed1956be
 end
