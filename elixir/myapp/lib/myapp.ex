@@ -8,3 +8,8 @@ defmodule Myapp do
 end
 IO.puts Myapp.f(5)
 IO.puts("hello mix")
+defmodule Link do
+  def route do
+   ~s"hello there"
+  end
+end
