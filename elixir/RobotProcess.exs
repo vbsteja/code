@@ -116,3 +116,44 @@ defmodule Monitor do
 
   end
 end
+
+defmodule ParallelMap do
+  def pmap(collection,fun) do
+      me=self
+      collection
+      |>Enum.map(fn(elem)->
+        spawn_link fn  -> (send me, {self,fun.(elem)}) end end)
+      |>Enum.map(fn(pid)->
+        receive do {^pid,result}-> result end end )
+  end
+end
+defmodule FibSolver do
+  def fib(scheduler) do
+    send scheduler, {:ready,self}
+    receive do
+      {:fib,n,clients} ->
+        send clients, {:answer,n,fib_calc(n),self}
+        fib(scheduler)
+        {:shutdown}->
+          exit(:normal)
+    end
+  end
+  def fib_calc(0) do
+    0
+  end
+  def fib_calc(1) do
+    1
+  end
+  def fib_calc(n) do
+    fib_calc(n-1) + fib_calc(n-2)
+  end
+end
+
+defmacro Scheduler do
+  def run(num_process,module,func,to_calculate) do
+    (1..num_process)
+    |>Enum.map(fn()->spawn(module,func,[self]) end)
+    |>schedule_process(to_calculate,[])
+  end
+  
+end
