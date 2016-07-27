@@ -2,9 +2,9 @@
     this is a repository for my coding in the field of AI
 
 Production : 
-    Elixir Scala Python Haskell
+     Scala Python ocaml R
 Fun:
-    Clojure Scheme Ocaml
+    Clojure clisp
 System Programming:
     C Rust
 Web :
@@ -16,10 +16,10 @@ DB :
 OS :
     Linux shell
 Tools:
-    Intellij     --> Clojure, Scala, Python, Haskell
+    Intellij     --> Clojure, Scala, Python, ocaml
     Codeblocks   --> c/c++
     spyder       --> Python
-    Atom         -->   rust,scheme,ocaml,web,eliixr
+    Atom         -->   rust,clisp,ocaml,web
 
 Learn :
     Haskell -> learnt
@@ -43,7 +43,7 @@ Elixir school website
 scala school website
 
 Cook Book: 
-    Python,Elixir,Scala,Haskell,Clojure,SICP(Scheme)
+    Python,Scala,Haskell,Clojure,SICP(Scheme)
 
 speech synthesis :
     sphinx,pocketsphinx(python) test failed compared to google speech
