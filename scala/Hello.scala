@@ -7,15 +7,14 @@ class Parsing {
 }
 object Hello{
 	def prime(a:Int,numList :Array[String]):Boolean={
-		var count=0;
-		var i=0;
+		var count = 0;
+		var i = 0;
 		for(i <- numList) {
-			if(a%i.toInt==0){
+			if(a % i.toInt == 0){
 				count+=1;
 			}
-
 		}
-		if(count>1){
+		if(count > 1){
 			return false
 		}
 		else
@@ -25,7 +24,7 @@ object Hello{
 
 	}
 
-	def main(args: Array[String])={
+	def main(args: Array[String]) = {
 		//println("Hello World this is scala")
 		var n=Console.in.readLine()
 		val numList=Console.in.readLine().split(" ");

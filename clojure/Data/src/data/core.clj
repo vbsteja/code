@@ -13,7 +13,7 @@
 
 (defn make-csv
   [header row]
-  (apply str header (interpose  "\n" row )))
+  (apply str header (interpose  "\n" row)))
 (make-csv ["name" "age" "sex"] ["surya 24 M","teja 25 F"])
 
 ;; count the frequencies of the characters in the string
@@ -32,7 +32,7 @@
 
 (def me {:first-name "surya", :fav_lang "Clojure"})
 (do
-  (print "Hi My name is " (me :first-name) ", my favorite language is " (me :fav_lang)))
+  (print "Hi My name is " (me :first-name) ", my favorite language is " (me :fav_lang) "\n"))
 
 ;;Formating in tabular format
 (def employe [["surya" "teja" "10123024"] ["teja" "surya" "34234134"]])
@@ -53,3 +53,6 @@
   "hell"
   []
   (println "Hello"))
+(defn main
+  []
+  (print "Hello"))
