@@ -12,7 +12,8 @@ def count_consonents(s):
         return True
     else:
         return False
-
+def man:
+    return 1
 def consec_consonents(s):
     c=0
     vow=['a','e','i','o','u','y']

@@ -1,15 +1,14 @@
 defmodule ARCO do
   def main do
     IO.puts "Hello World"
-  end  
+  end
 end
 
 defmodule SpawnBasic do
   def greet() do
     receive do
-      {sender,msg} ->
-	send sender,{:ok,"Hello #{msg}"}
-	greet
+      {sender,msg} -> send sender,{:ok,"Hello #{msg}"}
+	  greet
     end
   end
   def receive_do(name) do
@@ -25,11 +24,10 @@ defmodule SpawnBasic do
 	IO.puts msg
     after 500 ->
 	IO.puts "The Greeter has gone away"
-    end	
+    end
   end
 end
 
-  
+
 ARCO.main
 IO.puts "Hi surya"
-

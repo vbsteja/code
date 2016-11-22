@@ -1,6 +1,6 @@
 (ns data.core)
 (require '[clojure.string :as str])
-(require '[speech-synthesis.say :as say])
+
 (defn foo
   "I don't do a whole lot."
   [x]
@@ -49,10 +49,4 @@
 
 ;(.isReachable (java.net.InetAddress/getByName "oreilly.com") 10)
 
-(defn h
-  "hell"
-  []
-  (println "Hello"))
-(defn main
-  []
-  (print "Hello"))
+(print (into [] ga/xf (range 1000)))

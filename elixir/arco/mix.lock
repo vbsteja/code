@@ -1,7 +1,7 @@
 %{"alice": {:hex, :alice, "0.3.6", "e5dd91d783889b3af337e67d55af86bcf490aa9216a9492fc18b2f0a6fc3dcfd", [:mix], [{:poison, "~> 2.1", [hex: :poison, optional: false]}, {:poolboy, "~> 1.5.0", [hex: :poolboy, optional: false]}, {:redix, "~> 0.3.0", [hex: :redix, optional: false]}, {:slack, "~> 0.4.2", [hex: :slack, optional: false]}]},
   "certifi": {:hex, :certifi, "0.4.0", "a7966efb868b179023618d29a407548f70c52466bf1849b9e8ebd0e34b7ea11f", [:rebar3], []},
   "connection": {:hex, :connection, "1.0.2", "f4a06dd3ecae4141aa66f94ce92ea4c4b8753069472814932f1cadbc3078ab80", [:mix], []},
-  "cowboy": {:hex, :cowboy, "1.0.4", "a324a8df9f2316c833a470d918aaf73ae894278b8aa6226ce7a9bf699388f878", [:rebar, :make], [{:cowlib, "~> 1.0.0", [hex: :cowlib, optional: false]}, {:ranch, "~> 1.0", [hex: :ranch, optional: false]}]},
+  "cowboy": {:hex, :cowboy, "1.0.4", "a324a8df9f2316c833a470d918aaf73ae894278b8aa6226ce7a9bf699388f878", [:make, :rebar], [{:cowlib, "~> 1.0.0", [hex: :cowlib, optional: false]}, {:ranch, "~> 1.0", [hex: :ranch, optional: false]}]},
   "cowlib": {:hex, :cowlib, "1.0.2", "9d769a1d062c9c3ac753096f868ca121e2730b9a377de23dec0f7e08b1df84ee", [:make], []},
   "exjsx": {:hex, :exjsx, "3.1.0", "d419162cb2d5be80070835c2c2b8c78c8c45907706c991d23f3750dae506d1e9", [:mix], [{:jsx, "~> 2.4.0", [hex: :jsx, optional: false]}]},
   "hackney": {:hex, :hackney, "1.6.0", "8d1e9440c9edf23bf5e5e2fe0c71de03eb265103b72901337394c840eec679ac", [:rebar3], [{:certifi, "0.4.0", [hex: :certifi, optional: false]}, {:idna, "1.2.0", [hex: :idna, optional: false]}, {:metrics, "1.0.1", [hex: :metrics, optional: false]}, {:mimerl, "1.0.2", [hex: :mimerl, optional: false]}, {:ssl_verify_fun, "1.1.0", [hex: :ssl_verify_fun, optional: false]}]},
@@ -15,4 +15,4 @@
   "ranch": {:hex, :ranch, "1.2.1", "a6fb992c10f2187b46ffd17ce398ddf8a54f691b81768f9ef5f461ea7e28c762", [:make], []},
   "redix": {:hex, :redix, "0.3.6", "882b3b9a81ac1245277a0ee60a0f33fef39dc5f988f513b605c8c93f40f7206f", [:mix], [{:connection, "~> 1.0.0", [hex: :connection, optional: false]}]},
   "slack": {:hex, :slack, "0.4.2", "ae23da58e702979731d13d90e3bd0cdd5f44fbca7166eac635a8163a640bd382", [:mix], [{:exjsx, "~> 3.1.0", [hex: :exjsx, optional: false]}, {:httpoison, "~> 0.8.0", [hex: :httpoison, optional: false]}]},
-  "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.0", "edee20847c42e379bf91261db474ffbe373f8acb56e9079acb6038d4e0bf414f", [:rebar, :make], []}}
+  "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.0", "edee20847c42e379bf91261db474ffbe373f8acb56e9079acb6038d4e0bf414f", [:make, :rebar], []}}
