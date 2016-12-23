@@ -1,0 +1,10 @@
+[package]
+name = "gcd_app"
+version = "0.1.0"
+authors = ["surya <vbsteja2@gmail.com>"]
+
+[dependencies]
+iron = "0.2.2"
+mime = "0.1.0"
+router =  "0.0.15"
+urlencoded = "0.2.0"
