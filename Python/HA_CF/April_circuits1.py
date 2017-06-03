@@ -41,11 +41,13 @@ for i in range(a):
 for i in s:
     if consec_consonents(i) or count_consonents(i):
         print "hard"
-        #print("in if")
+#        #print("in if")
         # print count_consonents(i)
         # print consec_consonents(i)
     else:
-        #print("in else")
+        pass
+
+#       #print("in else")
         # print count_consonents(i)
         # print consec_consonents(i)
         print "easy"

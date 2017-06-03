@@ -15,10 +15,12 @@ function getSum(li)
   for i in li
     sum+=i
   end
+  return sum
 end
 function main(a,n)
   li=getMul(a,n)
   @show(li)
 end
 print("::the Project euler problem 1::")
-main([3,5],1000)
+l = main([3,5],1000)
+getSum(l)

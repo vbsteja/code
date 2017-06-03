@@ -1,3 +1,5 @@
 def hello(a):
-	print('Hello '+a)
+    print('Hello ' + a)
+
+
 hello("surya")
