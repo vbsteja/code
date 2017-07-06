@@ -2,11 +2,17 @@ original Problem
 
 -> Making computers understand Language and interacting with humans.
 
--> at this point of time computers can not really see and imagine the visuals of it's surroundings.this will lead to a misunderstanding
-   and ambiguity in the interaction.
+-> at this point of time computers can not really see and imagine the visuals of it's surroundings.this will lead to a 
+   misunderstanding and ambiguity in the interaction.
 
 -> what we can do to rectify the misunderstanding and ambiguity in the interaction ?.
-    we can use NLP at large scale machine learning or deep learning to process the data and tag the token of words to represent a set of 
-    situations or context or things in the order of it's probability.
-    we need to build a neural network(not that of Math concept based NN, but a real human like NN)
+    we can use NLP at large scale machine learning or deep learning to process the data and tag the token of words to represent a              
+    set of situations or context or things in the order of it's probability.
+    
+    we need to build a neural network(not that of Math concept based NN, but a real human brain like NN)
+    a typical Mind like NN is very important in processing language, cause a lot of factors and facts and context based thinking is  
+    involved in the processing of language. a lot of real neurons carry a lot of operations at the time we hear some words we 
+    already know. a set of neurons will catch the input stream data and each neuron will classify and categorize each word/token 
+    /chunk of input stream which follows the human language rules.the input neurons then after processing the text , forward the 
+    constructed meaning of the 
     
