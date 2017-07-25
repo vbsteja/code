@@ -14,5 +14,40 @@ original Problem
     involved in the processing of language. a lot of real neurons carry a lot of operations at the time we hear some words we 
     already know. a set of neurons will catch the input stream data and each neuron will classify and categorize each word/token 
     /chunk of input stream which follows the human language rules.the input neurons then after processing the text , forward the 
-    constructed meaning of the 
+    constructed meaning of the input text to the other layers of neurons for further processing and to utilize tio generate the 
+    output text.
+    
+    in this project we are going to perform a number of NLP techniques overall to better understand and create a single learning 
+    algorithm.
+    
+    libraries to be used in the project:
+    language: Python, Elixir.
+    DB: mongoDB(JSON), Neo4J(Entity relation)
+    ML Libraries: Scikit-Learn,Tensorflow, Pytorch, Keras.
+    NLP Libraries: Spacy(en),  Gensim(en), NLTK(en).
+    
+    
+    Applications of NLP:
+    1.Morphological segmentation
+    2.Part-of-speech tagging
+    3.Parsing
+    4.Sentence breaking 
+    5.Word segmentation
+    6.Terminology extraction
+    7.Machine translation
+    8.Natural language generation
+    9.Natural language understanding
+    10.Optical character recognition (OCR)
+    11.Question answering
+    12.Recognizing Textual entailment
+    13.Relationship extraction
+    14.Sentiment analysis
+    15.Topic segmentation and recognition
+    16.Word sense disambiguation
+    17.Automatic summarization
+    18.Coreference resolution
+    19.Discourse analysis
+    20.Speech recognition
+    21.Speech segmentation
+    22.Text-to-speech
     
