@@ -18,5 +18,5 @@ Model Prototype	:
 Tools				    : 	Atom, Emacs, Spyder, Sublime Text.
 Source Control	:	Git.
 Image Processing: 	Pillow, OpenCV Python, Caffe with DIGITS.
-Deep Learning		:	Keras, TensorFlow, Pytorch,Chainer,neon.
+Deep Learning		:	Keras, TensorFlow, Pytorch,Chainer.
 Natural language processing :  NLTK, spacy,Gensim 
