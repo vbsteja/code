@@ -1,0 +1,89 @@
+Machine Learning,
+Linear Regression,
+
+Anomaly Detection: step by step
+
+Intro: The Gaussian model will be used to learn an underlying pattern of the dataset with the hope that our features follow the gaussian distribution.After that, we will find data points with very low probabilities of being normal and hence can be considered outliers. For training set, we will first learn the gaussian distribution of each feature for which mean and variance of features are required. Numpy provides the method to calculate both mean and variance (covariance matrix) efficiently. Similarly, Scipy library provide method to estimate gaussian distribution.
+
+1.collect the sample data.
+2.normalize the sample data
+3.estimate the gaussian variables (mu,sigma) on the given data.
+4.calculate the multivariate gaussian on the training data with the help of mu,sigma.
+5.define a function to find the optimal value for threshold (epsilon) that can be used to differentiate between normal and anomalous data points. For learning the optimal value of epsilon we will try different values in a range of learned probabilities on a cross-validation set. The f-score will be calculated for predicted anomalies based on the ground truth data available. The epsilon value with highest f-score will be selected as threshold i.e. the probabilities that lie below the selected threshold will be considered anomalous.
+6.using epsilon findout the outliers where p(multivariate gaussians > epsilon)
+7.plot the data with outliers and see for yourself.
+
+
+Text categorization using NLP,
+
+Collaboration filtering steps:
+
+--> collect data
+--> setup data
+--> create excel data with cross tab from pandas
+--> dot product with a functional API model in keras using embeddings.
+--> observe the performance
+--> add bias if the performance is something to be desired of.
+--> analyze the results
+--> use neural netwroks to solve the same
+
+
+IMDB Sentiment analysis
+
+- setup data
+- create a simple Nueral net with one hidden unit
+- create a single conv net with maxpooling
+- using pre trained vectors
+- multi size CNN
+- LSTM
+
+RNN's:
+
+- 3 char model.
+- first RNN.
+- first RNN with keras.
+- returning sequences.
+- sequence model with keras.
+- onehot sequence models with keras.
+- stateful model with keras
+- pure python RNN.
+- keras GRU.
+
+Machine Learning Important topics:
+
+Linear Regression,Classification,clustering,preprocessing, dimensionality reduction, model selection.
+
+Research Papers: arxiv.org(tags: Artificial Intelligence, Computation and language, computer vision and pattern recognition.)
+Languages: Python,Clojure,Elixir,Julia,Java script.
+deep learning: keras,tensorflow,pytorch,chainer,thinc.
+machine learning : xgboost,sklearn.
+data processing : numpy,scipy,pandas,matplotlib.
+NLP: spacy,NLTK,PyStruct,textblob.
+
+-data preprocessing is an important starting step in the data science.
+processed data can give useful insights into the data.
+processed data can be used to fit a model, can be regressive ,classifier, clustering model.
+
+-neural networks are the universal problem solver. can model any function on neural nets.
+
+
+NLP Notes: Neural language model, 
+
+
+A language model is a function, or an algorithm for learning such a function, that captures the salient statistical characteristics of the distribution of sequences of words in a natural language, typically allowing one to make probabilistic predictions of the next word given preceding ones.
+
+TODO in NLP:
+
+first phase:
+	1. finish last class notebooks in fast.ai -completed
+	2. enter into kaggle competition for spooky author detection. --partial
+	3. publish the results on github. --later
+	4. finish written todo's in the notebook 
+
+second phase:
+
+	1. Stanford NLP - Professor Dan Jurafsky & Chris Manning. -- 10 lessons completed.
+	2. CS224d: Deep Learning for Natural Language Processing.
+	3. Character/Sequence based RNN models for predicting the next word/character by andrej karpathy.
+	4. Text Normalization Kaggle competition. -- competition over.
+	5. 

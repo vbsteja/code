@@ -23,7 +23,7 @@ original Problem
     libraries to be used in the project:
     language: Python, Elixir.
     DB: mongoDB(JSON), Neo4J(Entity relation)
-    ML Libraries: Scikit-Learn,Tensorflow, Pytorch, Keras.
+    ML Libraries: Scikit-Learn,Tensorflow, Pytorch, Keras,chainer,xgboost.
     NLP Libraries: Spacy(en),  Gensim(en), NLTK(en).
     
     
