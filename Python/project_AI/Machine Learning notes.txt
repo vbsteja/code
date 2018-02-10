@@ -54,11 +54,12 @@ Machine Learning Important topics:
 Linear Regression,Classification,clustering,preprocessing, dimensionality reduction, model selection.
 
 Research Papers: arxiv.org(tags: Artificial Intelligence, Computation and language, computer vision and pattern recognition.)
-Languages: Python,Clojure,Elixir,Julia,Java script.
+Languages: Python,lisp(sbcl,racket,scheme),Elixir,Julia.
 deep learning: keras,tensorflow,pytorch,chainer,thinc.
 machine learning : xgboost,sklearn.
 data processing : numpy,scipy,pandas,matplotlib.
 NLP: spacy,NLTK,PyStruct,textblob.
+OS Monitoring : psutil.
 
 -data preprocessing is an important starting step in the data science.
 processed data can give useful insights into the data.
