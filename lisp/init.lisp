@@ -8,10 +8,15 @@
          (listing)))))
 (defun mkstr(&rest args)
    (with-output-to-string (s)
-      (dolist (a args)(princ a s))))   
+      (dolist (a args)(princ a s))))
 
 (defun surya-say()
     (write "Hello"))
 (defun suyra())
+(surya-say)
+
+(defun hello())
+(+ 123 124)
 
 
+        
