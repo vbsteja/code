@@ -1,0 +1,4 @@
+(defun compress (x)
+  (if  (consp x)
+       (compr (car x) 1 (cdr x))
+       x))
