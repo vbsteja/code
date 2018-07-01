@@ -1,0 +1,10 @@
+(defmacro -> (x &rest forms)
+  (flet ((expand-form (x form)
+           (if (consp form)
+               (if (or (eq (car form) 'lambda)
+                       (eq (car form) 'function))
+                   `(funcall ,form ,x)
+                   `(,(car form) ,x ,@(cdr form)))
+               `(,form ,x))))
+    (reduce #'expand-form forms :initial-value x)))
+
