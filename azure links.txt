@@ -1,0 +1,13 @@
+Few details:
+
+Official site:
+https://azure.github.io/learnAnalytics-public/cert_guides/certification_70-774_community_guide
+
+Link to the certification 70-774
+https://www.microsoft.com/en-us/learning/exam-70-774.aspx
+
+Link that guides with prep (not official):
+https://www.mssqltips.com/sqlservertip/4978/exam-material-for-the-microsoft-70774-perform-cloud-data-science-with-azure-machine-learning/
+
+https://www.briefmenow.org/microsoft/category/briefing-70-774-perform-cloud-data-science-with-azure-machine-learning/
+
