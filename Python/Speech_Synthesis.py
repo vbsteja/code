@@ -65,4 +65,4 @@ except sr.RequestError as e:
 print "Hello"
 
 
-import numpy
+import numpy as np
