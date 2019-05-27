@@ -1,0 +1,5 @@
+apt:
+
+    libopencv-dev
+    python3-opencv  
+pip:

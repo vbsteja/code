@@ -1,0 +1,28 @@
+#lang racket
+
+(define var "value")
+
+(define (square num)
+  (print "squared up the given value")
+  (* num num))
+
+(square 4)
+
+(define square_lambda
+  (lambda (num) (* num num)))
+(square_lambda 10)
+
+(define (check_odd_even num)
+  (if (even? num)
+      "even"
+      "odd"))
+
+(check_odd_even 5)
+
+(define (cond_check_even_odd num)
+  (cond
+   [(even? num) "even"]
+   [(odd? num) "odd"]
+   [else "huh? i do not know what you are talkin about"]))
+
+(cond_check_even_odd "nay")

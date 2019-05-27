@@ -22,8 +22,8 @@ class NeuralNetwork:
       self.a2 = self.sigmoid(self.z2)
       self.z3 = np.dot(self.a2,self.W2)
       yHat = self.sigmoid(self.z3)
-      retun yHat
-      
+      return yHat
+
     def sigmoid_prime(self,z):
       #Derivative of the sigmoid prime.
       return np.exp(-z)/((1+np.exp(-z))**2)
